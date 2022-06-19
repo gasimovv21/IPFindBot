@@ -1,0 +1,1 @@
+ENDPOINT_INFO_IP = 'https://ipinfo.io/{}/geo'
