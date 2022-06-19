@@ -1,1 +1,1 @@
-worker: python IPFindBot.py
+worker: python bot.py
