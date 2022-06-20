@@ -19,6 +19,8 @@ load_dotenv()
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')
 TELEGRAM_CHAT_ID = os.getenv('TELEGRAM_CHAT_ID')
 
+print(TELEGRAM_TOKEN)
+
 
 def send_message(bot, message):
     """Отправлем сообещние в телеграм чат."""
@@ -128,6 +130,7 @@ def wake_up(update, context):
 def main():
     """Основная логика работы бота."""
     updater = Updater(token=TELEGRAM_TOKEN)
+    print(updater)
     updater.dispatcher.add_handler(CommandHandler('start', wake_up))
     updater.dispatcher.add_handler(CommandHandler('getlink', send_link_for_ip))
     updater.dispatcher.add_handler(CommandHandler('ipinfo', send_ip_info))
