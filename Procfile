@@ -1,2 +1,2 @@
 worker: python bot.py
-web: gunicorn ipfind-bot.wsgi --log-file -
+web: python web-site/mysite/manage.py runserver 0.0.0.0:$PORT
