@@ -132,9 +132,9 @@ def main():
     updater.dispatcher.add_handler(CommandHandler('getlink', send_link_for_ip))
     updater.dispatcher.add_handler(CommandHandler('ipinfo', send_ip_info))
     updater.dispatcher.add_handler(CommandHandler('ip', send_ip))
-
     updater.start_polling()
     updater.idle()
+
 
 if __name__ == '__main__':
     main()
