@@ -125,10 +125,6 @@ def wake_up(update, context):
     )
 
 
-def check_tokens():
-    """Проверка доступности переменных из окружений."""
-    return all((TELEGRAM_TOKEN, TELEGRAM_CHAT_ID))
-
 def main():
     """Основная логика работы бота."""
     updater = Updater(token=TELEGRAM_TOKEN)
@@ -141,17 +137,4 @@ def main():
     updater.idle()
 
 if __name__ == '__main__':
-    file_handler = logging.FileHandler(
-        filename=os.path.join('main.log'),
-        mode='w',
-        encoding='UTF-8')
-    stdout_handler = logging.StreamHandler(sys.stdout)
-    logging.basicConfig(
-        level=logging.DEBUG,
-        handlers=[file_handler, stdout_handler],
-        format=(
-            '%(asctime)s, Тип лога - %(levelname)s, строка - %(lineno)d, '
-            'Фукнция - %(funcName)s, Директория - %(name)s, '
-            'Сообшение - %(message)s')
-    )
     main()
