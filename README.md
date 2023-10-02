@@ -1,18 +1,18 @@
 # IPFindBot
 
-## "Узнать новое. Никогда не поздно."
+## "Learn new things. It's never too late."
 
-### Узнай свой IP-адрес и информацию об указанном IP-адресе, например геологическую информацию, название компании и оператора.
+### Find out your IP address and information about the specified IP address, such as geological information, company name and operator.
 
 ---
 
-Чтобы узнать свой IP-адрес вам придётся:
+To find out your IP address you will have to:
 
-1. запустить бота кнопка - /start.
-2. Чтобы узнать свой IP-адрес из-за защиты конфиденциальных данных телеграмма, бот не может сразу узнать ваш IP-адрес поэтому нажмите на кнопку - /getlink
-3. Перейдите по сыллке не беспакойтесь бот очень дружелюбный это не фишинг сайт)
-4. Если успешно перешли по сыллке вернитесь обратно к боту
-5. Нажмите кнопку /ip и вы получите свой общедоступный IP-адрес.
-6. Если у вас есть желание узнать доп-информациию о своём IP-адрессе, то нажмите кнопку /ipinfo
+1. start the bot button - /start.
+2. To find out your IP address due to the protection of confidential telegram data, the bot cannot immediately find out your IP address, so click on the - /getlink button
+3. Follow the link don't worry the bot is very friendly it's not a phishing site)
+4. If you successfully clicked the link, go back to the bot
+5. Click the /ip button and you will get your public IP address.
+6. If you have a desire to find out additional information about your IP address, then click /ipinfo
 
 ---
